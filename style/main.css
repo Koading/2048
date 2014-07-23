@@ -525,6 +525,14 @@ hr {
     font-size: 27px;
     margin-top: 15px; }
 
+  .subtitle {
+    font-size: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-style: italic;
+
+  }
+
   .container {
     width: 280px;
     margin: 0 auto; }
