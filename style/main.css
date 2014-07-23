@@ -392,23 +392,34 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    color: rgba(0,0,0,0);
+    background: url('img/2.png');
+
+    }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    color: rgba(0,0,0,0);
+    background: #ffe0c8;
+    background: url('img/4.png');
+     }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
-    background: #f2b179; }
+    color: rgba(0,0,0,0);
+    background: url('img/8.png'); }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
-    background: #f59563; }
+    color: rgba(0,0,0,0);
+    background: #f59563;
+    background: url('img/16.png'); }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f; }
+    color: rgba(0,0,0,0);
+    background: #f67c5f;
+    background: url('img/32.png'); }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background: #f65e3b; }
+    color: rgba(0,0,0,0);
+    background: #f65e3b;
+    background: url('img/64.png'); }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background: #edcf72;
@@ -600,6 +611,14 @@ hr {
   h1.title {
     font-size: 27px;
     margin-top: 15px; }
+
+  .subtitle {
+    font-size: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-style: italic;
+
+  }
 
   .container {
     width: 280px;
